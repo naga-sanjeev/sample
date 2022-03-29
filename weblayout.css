@@ -1,0 +1,107 @@
+*{
+padding:0;
+margin:0;
+
+}
+
+
+.header {
+  background-color: blue;
+  color:red;
+  padding: 20px;
+  text-align: center;
+}
+
+/*navigationbar style */
+
+.information {
+  overflow: hidden;
+  background-color: green;
+
+}
+
+/*navigation bar links styes we can add this sytle to any other links also*/
+.information  a{
+  float: left;
+  display: block;
+  color: yellow;
+  padding: 14px 16px;
+  text-decoration: none;  
+     margin: 1px auto; 
+}
+
+.information a:hover {
+  background-color: pink;
+  width:10%;
+  color: blue;
+ 
+}
+
+ .leftmenu{
+	width:13%;
+	height:100%;
+	background-color:black;
+	box-sizing:border-box;
+ }   
+ .leftmenu a
+ {
+ 	box-sizing:border-box;
+ 	float:left;
+ 	text-align:left;
+ 	padding:5px;
+ 	margin:5px;
+ 	font-size: 15px;
+ 	width:90%;
+ 	text-decoration:none;
+ 	color:green;
+ }
+ 
+ .department-btn 
+ {
+	  padding: 5px;
+	  margin: 5px;
+	  text-decoration: none;
+	  font-size: 15px;
+	  color:green;
+	  display: block;
+	  border: none;
+	  background: none;
+	
+	  text-align: left;
+	  float:left;
+	  cursor: pointer;
+	  outline: none;
+	  color:green;
+}
+.leftmenu a:hover,.department-btn:hover
+ {
+ 	box-sizing:border-box;
+ 	float:left;
+ 	padding:5px;
+ 	margin:5px;
+ 	text-align: left;
+ 	
+ 	text-decoration:none;
+ 	
+ 	color:red;
+ }
+
+.leftinnermenu 
+{
+	display:none;
+	background-color:pink;
+	color:blue;
+}
+
+.active {
+  background-color:pink;
+  color: blue;
+}
+
+
+.fa-caret-down {
+  float: right;
+  padding-right: 10px;
+}
+
+</style>

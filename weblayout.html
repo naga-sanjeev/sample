@@ -1,0 +1,97 @@
+<html>
+	<title> school web page</title>
+	<head>
+	<link href="weblayout.css" rel="stylesheet"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	</head>
+	
+	
+	<body>
+		<div class="header">
+			<h1>ABC School</h1>
+		</div>
+		
+		<div class="information">
+			<a href="#">About School</a>
+			<a href="#">Applicaton Form</a>
+			<a href="#">Fee details</a>
+		</div>
+		
+		
+		
+		
+		<div>
+			<div class="leftmenu">
+			  	  <a href="#">Administration</a>
+			  	  <a href="#">Vision&Mission</a>
+			  	  <a href="#">AICTE Approval</a>
+				  <button class="department-btn">Department<i class="fa fa-caret-down"></i></button>
+					  	<div class="leftinnermenu">
+					  	        <a href="#">Chemical Engineering</a>
+					  		<a href="#">Mechanical Engineering</a>
+					  		<a href="#">Electronics and Communication Engineering </a>
+					  		<a href="#">Computer Science and Engineering</a>
+					  		<a href="#">Electrical and Electronic Engineering</a>
+					  		<a href="#">InformationTechnology</a>  
+						</div>	
+				<button class="department-btn">Faculty<i class="fa fa-caret-down"></i></button>
+					  	<div class="leftinnermenu">
+					  	       <a href="#">Chemical Engineering</a>
+					  		<a href="#">Mechanical Engineering</a>
+					  		<a href="#">Electronics and Communication Engineering </a>
+					  		<a href="#">Computer Science and Engineering</a>
+					  		<a href="#">Electrical and Electronic Engineering</a>
+					  		<a href="#">InformationTechnology</a> 
+						</div>	
+				<button class="department-btn">Student Chapters<i class="fa fa-caret-down"></i></button>
+					  	<div class="leftinnermenu">
+					  	        <a href="#">Chemical Engineering</a>
+					  		<a href="#">Mechanical Engineering</a>
+					  		<a href="#">Electronics and Communication Engineering </a>
+					  		<a href="#">Computer Science and Engineering</a>
+					  		<a href="#">Electrical and Electronic Engineering</a>
+					  		<a href="#">InformationTechnology</a> 
+						</div>							  	
+				 <button class="department-btn">Library<i class="fa fa-caret-down"></i></button>
+					  	<div class="leftinnermenu">
+					  	        <a href="#">about Library</a>
+					  		<a href="#">Objective</a>
+					  		<a href="#">Resorces</a>
+					  		<a href="#">E-Journal</a>
+					  		<a href="#">Contact Us</a> 
+						</div>							  	
+				  
+							
+	     		</div>
+			
+			
+			<div class="centermenu">
+			</div>
+			
+			
+			<div class="rightmenu">
+			</div>
+	
+		</div>
+		
+		
+		<script>
+	
+	var dropdown = document.getElementsByClassName("department-btn");
+	var i;
+
+	for (i = 0; i < dropdown.length; i++) {
+	  dropdown[i].addEventListener("click", function() {
+	  this.classList.toggle("active");
+	  var dropdownContent = this.nextElementSibling;
+	  if (dropdownContent.style.display === "block") {
+	  dropdownContent.style.display = "none";
+	  } else {
+	  dropdownContent.style.display = "block";
+	  }
+	  });
+	}
+	
+	</script>
+	</body>
+</html>
